@@ -1,0 +1,22 @@
+#meta
+version | 0.1.0
+created | 2026-01-01
+owner | yourname
+
+#nodes
+yourname | person | your description here
+project-a | project | your first project
+tool-1 | tool | a tool you use regularly
+
+#edges
+yourname > created > project-a | confidence=1.0 | seen=1 | last=2026-01-01 | source_type=manual
+yourname > uses > tool-1 | confidence=0.9 | seen=5 | last=2026-01-01 | source_type=behavior
+
+#preferences
+prefers_terse_responses | confidence=0.8 | seen=10 | context=communication
+
+#constraints
+never_publish_without_approval | type=execution_rule | override=false
+
+#aliases
+project-a | proj-a | my project

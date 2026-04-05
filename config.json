@@ -1,0 +1,19 @@
+{
+  "decay_rate": 0.02,
+  "decay_interval_days": 7,
+  "prune_min_confidence": 0.3,
+  "prune_min_age_days": 30,
+  "inference_enabled": false,
+  "inference_confidence_multiplier": 0.8,
+  "confidence_increment": 0.05,
+  "max_confidence": 1.0,
+  "context_injection_max_tokens": 1500,
+  "initial_confidence": {
+    "manual": 1.0,
+    "transaction": 0.9,
+    "email": 0.7,
+    "conversation": 0.6,
+    "behavior": 0.5,
+    "inferred": 0.4
+  }
+}

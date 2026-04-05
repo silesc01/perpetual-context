@@ -1,0 +1,19 @@
+# Data files (user-specific, not shared)
+data/context.ctx
+data/pending.ctx
+data/archive.ctx
+data/changelog.ctx
+data/contradictions.log
+data/nightly_summary.json
+
+# Keep the example
+!data/context.ctx.example
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
